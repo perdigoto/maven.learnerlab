@@ -22,17 +22,17 @@ public class TestPerson {
 
     @Test
     public void TestConstructor1(){
-        TestConstructor(1,"kevin");
+        TestConstructor(1,"john");
     }
 
     @Test
     public void TestConstructor2(){
-        TestConstructor(2,"someone");
+        TestConstructor(2,"mary");
     }
 
     public void TestSetName(String nameInput){
         //given
-        Person person = new Person((long)1,"kevin");
+        Person person = new Person((long)1,"john");
         String expected = nameInput;
 
         //when
@@ -50,7 +50,7 @@ public class TestPerson {
 
     @Test
     public void TestSetName2(){
-        TestSetName("noone");
+        TestSetName("no one");
     }
 
 
